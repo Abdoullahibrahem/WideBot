@@ -1,0 +1,257 @@
+:root{
+  --bs-blueskyText:#4376ac;
+  --bs-blue:#004a9b;
+  --bs-orange:#ff5100;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  background-color: white;
+}
+.navbar .navbar-nav a{
+  color: var(--bs-blueskyText);
+  font-size: 17px;
+  font-weight: 600;
+  
+}
+.navbar .dropdown-menu{
+  border: none;
+  
+}
+.navbar .dropdown-menu a:hover{
+  background-color: white;
+}
+
+.navbar .logIn{
+  color:var(--bs-orange);
+  font-weight: 600;
+}
+.navbar .btn{
+  background-color: var(--bs-orange);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 42px;
+}
+.navbar .ms-lg-5 {
+  margin-right: 5rem;
+}
+header h1{
+  color: var(--bs-blue);
+  font-weight: 700;
+  font-size: 48px;
+}
+header .orangeBtn{
+  border-color: var(--bs-orange);
+  border-radius: 8px;
+  border:none;
+  background-color: var(--bs-orange);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 15px 48px;
+}
+header .whiteBtn{
+  border-color: var(--bs-orange);
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: white;
+  color: var(--bs-orange);
+  font-size: 17px;
+  font-weight: 600;
+  padding: 15px 48px;
+
+}
+#carouselExampleFade .carousel-indicators{
+ bottom: 450px;
+ 
+}
+
+#carouselExampleFade .carousel-inner{
+  background-color:var(--bs-blue);
+}
+#carouselExampleFade .carousel-inner .carousel-item-content h2{
+  color:white;
+  font-size: 45px;
+  font-weight:700 ;
+}
+#carouselExampleFade .carousel-inner .carousel-item-content p{
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.64);
+}
+#carouselExampleFade .carousel-inner img{
+  height: 650px;
+  width: 350px;
+  padding-top: 3rem;
+}
+#carouselExampleFade {
+
+}
+#carouselExampleFade .carousel-indicators .btn1{
+  padding-left: 50px;
+  height: 77px;
+  background:none;
+  background-image: url(https://widebot.net/wp-content/uploads/2020/06/Group-1198-2-1.png);
+  background-repeat: no-repeat;
+}
+#carouselExampleFade .carousel-indicators .btn2{
+  padding-left: 50px;
+  height: 77px;
+  background:none;
+  background-image: url(https://widebot.net/wp-content/uploads/2020/06/Group-1199-1-1.png);
+  background-repeat: no-repeat;
+
+}
+#carouselExampleFade .carousel-indicators .btn3{
+  padding-left: 50px;
+  height: 77px;
+  background:none;
+  background-image: url(https://widebot.net/wp-content/uploads/2020/06/Group-1200-2-1.png);
+  background-repeat: no-repeat;
+
+}
+#carouselExampleFade .carousel-indicators .btn4{
+  padding-left: 50px;
+  height: 77px;
+  background:none;
+  background-image: url(https://widebot.net/wp-content/uploads/2020/06/Group-1201-1.png);
+  background-repeat: no-repeat;
+
+}
+#carouselExampleFade .carousel-indicators .btn5{
+  padding-left: 50px;
+  height: 77px;
+  background:none;
+  background-image: url(https://widebot.net/wp-content/uploads/2020/06/Group-1202-2.png);
+  background-repeat: no-repeat;
+
+}
+.blue-h{
+  color: var(--bs-blue);
+  font-size: 48px;
+  font-weight:700 ;
+}
+.gray-p{
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.545);
+}
+
+.cards .card-image{
+  height: 120px;
+  width:105px;
+}
+.cards .card-title{
+  font-weight: 300;
+  color: var(--bs-blue);
+}
+.cards .card-content{
+  color: rgba(0, 0, 0, 0.6);
+}
+.contentAndImg a{
+  color:var(--bs-orange);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.btnSection{
+  background-color: var(--bs-blue);
+  height: 54vh;
+  border-radius: 40px;
+}
+
+.btnSection h2{
+  color:white;
+  font-size: 45px;
+  font-weight:700 ;
+}
+.btnSection p{
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.64);
+}
+.btnSection button{
+  background-color: var(--bs-orange);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 45px;
+  
+
+}
+.btnSection button:hover{
+  background-color: var(--bs-orange);
+  color: white;
+  border: none;
+
+}
+.vh-45{
+  height:45vh ;
+}
+footer a,h6{
+  color: #0b235c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div:first-child {
+      display: block;
+    }
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-start,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+    transition-duration: 1s;
+  }
+  
+  /* display 4 */
+  
+  @media (min-width: 768px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-item-next:not(.carousel-item-start) {
+      transform: translateX(25%) !important;
+    }
+  
+    .carousel-inner .carousel-item-left.active,
+    .carousel-item-prev:not(.carousel-item-end),
+    .active.carousel-item-start,
+    .carousel-item-prev:not(.carousel-item-end) {
+      transform: translateX(-25%) !important;
+    }
+  
+    .carousel-item-next.carousel-item-start, .active.carousel-item-end {
+      transform: translateX(0) !important;
+    }
+  
+    .carousel-inner .carousel-item-prev,
+    .carousel-item-prev:not(.carousel-item-end) {
+      transform: translateX(-25%) !important;
+
+    }
+
+   
+  }
+  
